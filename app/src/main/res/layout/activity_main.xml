@@ -12,11 +12,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
         android:background="#ffffff"
         android:fontFamily="sans-serif"
         android:text="@string/textView_text"
         android:textAlignment="center"
-        android:textColor="#6495ed"
+        android:textColor="@color/my_text_color"
         android:textSize="@dimen/text_size"
         android:textStyle="bold" />
 
@@ -24,32 +25,45 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
         android:background="#ffffff"
         android:ems="10"
         android:fontFamily="sans-serif"
         android:hint="@string/editText"
         android:inputType="textMultiLine"
         android:textAlignment="center"
-        android:textColor="#6495ed"
+        android:textColor="@color/my_text_color"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
         android:fontFamily="sans-serif"
         android:text="@string/button_text"
         android:textStyle="bold" />
 
     <Switch
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="100"
+        android:layout_marginTop="@dimen/margin_top"
         android:fontFamily="sans-serif"
         android:text="@string/switch_text"
-        android:textColor="#6495ed"
+        android:textColor="@color/my_text_color"
         android:textSize="@dimen/text_size"
         android:textStyle="bold"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:fontFamily="sans-serif"
+        android:gravity="top"
+        android:text="@string/checkBox_text"
+        android:textColor="@color/my_text_color"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
 
 </LinearLayout>
