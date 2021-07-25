@@ -5,4 +5,11 @@
     <string name="button_text">ОК</string>
     <string name="switch_text">Включить уведомления</string>
     <string name="checkBox_text">Я принимаю условия пользовательского соглашения</string>
+    <string name="edit_text_name">Укажите ваше имя</string>
+    <string name="edit_text_date">Укажите дату рождения</string>
+    <string name="edit_text_phone">Укажите номер телефона</string>
+    <string name="edit_text_number">Введите код из смс</string>
+    <string name="edit_text_text">Придумайте логин</string>
+    <string name="edit_text_password">Придумайте пароль</string>
+    <string name="edit_text_email">Укажите e-mail</string>
 </resources>
