@@ -41,4 +41,15 @@
         android:text="@string/button_text"
         android:textStyle="bold" />
 
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:fontFamily="sans-serif"
+        android:text="@string/switch_text"
+        android:textColor="#6495ed"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
 </LinearLayout>
