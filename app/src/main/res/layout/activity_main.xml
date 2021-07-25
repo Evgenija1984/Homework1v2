@@ -45,6 +45,7 @@
         android:textStyle="bold" />
 
     <Switch
+        android:id="@+id/notificationSwitch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
@@ -56,12 +57,23 @@
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:fontFamily="sans-serif"
         android:gravity="top"
         android:text="@string/checkBox_text"
+        android:textColor="@color/my_text_color"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:fontFamily="sans-serif"
         android:textColor="@color/my_text_color"
         android:textSize="@dimen/text_size"
         android:textStyle="bold" />
