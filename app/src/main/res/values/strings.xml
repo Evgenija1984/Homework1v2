@@ -2,5 +2,5 @@
     <string name="app_name">Homework1v2</string>
     <string name="textView_text">Все хорошие программисты начинали как плохие программисты</string>
     <string name="editText">Введите ваше имя</string>
-
+    <string name="button_text">ОК</string>
 </resources>
