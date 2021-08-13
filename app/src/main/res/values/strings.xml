@@ -2,7 +2,7 @@
     <string name="app_name">Homework1v2</string>
     <string name="textView_text">Все хорошие программисты начинали как плохие программисты</string>
     <string name="editText">Введите ваше имя</string>
-    <string name="button_text">ОК</string>
+    <string name="button_text">Open calculator</string>
     <string name="switch_text">Включить уведомления</string>
     <string name="checkBox_text">Я принимаю условия пользовательского соглашения</string>
     <string name="edit_text_name">Укажите ваше имя</string>
